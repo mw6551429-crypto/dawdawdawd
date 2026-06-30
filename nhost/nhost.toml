@@ -122,9 +122,7 @@ enabled = false
 enabled = false
 
 [auth.method.oauth.github]
-enabled = true
-clientId = '{{ secrets.GITHUB_CLIENT_ID }}'
-clientSecret = '{{ secrets.GITHUB_CLIENT_SECRET }}'
+enabled = false
 
 [auth.method.oauth.gitlab]
 enabled = false
