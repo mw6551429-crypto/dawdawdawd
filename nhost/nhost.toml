@@ -106,12 +106,7 @@ enabled = false
 
 [auth.method.oauth]
 [auth.method.oauth.apple]
-enabled = true
-teamId = '{{ secrets.APPLE_TEAM_ID }}'
-clientId = '{{ secrets.APPLE_CLIENT_ID }}'
-audience = '{{ secrets.APPLE_AUDIENCE }}'
-keyId = '{{ secrets.APPLE_KEY_ID }}'
-privateKey = '{{ secrets.APPLE_PRIVATE_KEY }}'
+enabled = false
 
 [auth.method.oauth.azuread]
 tenant = 'common'
